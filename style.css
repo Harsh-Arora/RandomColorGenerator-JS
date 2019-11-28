@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+	background: #000;
+	color: #444;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	height: 100%;
+}
+
+body h1{
+	background: #f9f9f9;
+	padding: 20px;
+	height: 40px !important;
+}
+
+.container{
+	height: calc(100% - 80px);
+	text-align: left;
+	border: none;
+	box-shadow: none;
+}
+
+.container .res{
+	color: rgba(0,0,0,0.35);
+	display: inline-flex;
+	height: 100%;
+	width: 20%;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 2em;
+	/*cursor: pointer;*/
+}
+
+.container .res span{
+	padding-bottom: 20%;
+}
