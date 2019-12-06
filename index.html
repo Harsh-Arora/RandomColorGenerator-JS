@@ -11,11 +11,11 @@
 	<h1>Random Color Generator</h1>
 
 	<div class="container">
-		   <div class="res" onclick="copyToClipboard('res1code')" id="res1"><span id="res1code"></span></div><!--
-		--><div class="res" onclick="copyToClipboard('res2code')" id="res2"><span id="res2code"></span></div><!--
-		--><div class="res" onclick="copyToClipboard('res3code')" id="res3"><span id="res3code"></span></div><!--
-		--><div class="res" onclick="copyToClipboard('res4code')" id="res4"><span id="res4code"></span></div><!--
-		--><div class="res" onclick="copyToClipboard('res5code')" id="res5"><span id="res5code"></span></div>
+		   <div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res1"><span id="res1code"></span></div><!--
+		--><div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res2"><span id="res2code"></span></div><!--
+		--><div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res3"><span id="res3code"></span></div><!--
+		--><div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res4"><span id="res4code"></span></div><!--
+		--><div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res5"><span id="res5code"></span></div>
 	</div>
 
 	<script src="js.js"></script>
