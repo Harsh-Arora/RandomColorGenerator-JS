@@ -22,6 +22,7 @@ body h1{
 	text-align: left;
 	border: none;
 	box-shadow: none;
+	cursor: pointer;
 }
 
 .container .res{
