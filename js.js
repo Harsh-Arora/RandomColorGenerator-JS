@@ -50,3 +50,11 @@ document.getElementById('res4').style.background = document.getElementById('res4
 
 document.getElementById('res5code').innerHTML = generator();
 document.getElementById('res5').style.background = document.getElementById('res5code').innerHTML;
+
+function toast() {
+  var x = document.getElementById("toast");
+
+  x.className = "show";
+
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 1250);
+}

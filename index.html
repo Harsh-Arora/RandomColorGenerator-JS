@@ -11,12 +11,14 @@
 	<h1>Random Color Generator</h1>
 
 	<div class="container">
-		   <div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res1"><span id="res1code"></span></div><!--
-		--><div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res2"><span id="res2code"></span></div><!--
-		--><div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res3"><span id="res3code"></span></div><!--
-		--><div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res4"><span id="res4code"></span></div><!--
-		--><div class="res" onclick="copyToClipboard(this.id.concat('code'))" id="res5"><span id="res5code"></span></div>
+		   <div class="res" onclick="copyToClipboard(this.id.concat('code')); toast()" id="res1"><span id="res1code"></span></div><!--
+		--><div class="res" onclick="copyToClipboard(this.id.concat('code')); toast()" id="res2"><span id="res2code"></span></div><!--
+		--><div class="res" onclick="copyToClipboard(this.id.concat('code')); toast()" id="res3"><span id="res3code"></span></div><!--
+		--><div class="res" onclick="copyToClipboard(this.id.concat('code')); toast()" id="res4"><span id="res4code"></span></div><!--
+		--><div class="res" onclick="copyToClipboard(this.id.concat('code')); toast()" id="res5"><span id="res5code"></span></div>
 	</div>
+
+	<div id="toast">Copied!</div>
 
 	<script src="js.js"></script>
 	<script src="copy.js"></script>
